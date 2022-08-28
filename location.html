@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<!-- search input box -->
+<form>
+<div class="form-group input-group">
+    <input type="text" id="search_location" class="form-control" placeholder="Search location">
+    <div class="input-group-btn">
+        <button class="btn btn-default get_map" type="submit">
+            Locate
+        </button>
+    </div>
+</div>
+</form>
+
+<!-- display google map -->
+<div id="geomap"></div>
+
+<!-- display selected location information -->
+<h4>Location Details</h4>
+<p>Address: <input type="text" class="search_addr" size="45"></p>
+<p>Latitude: <input type="text" class="search_latitude" size="30"></p>
+<p>Longitude: <input type="text" class="search_longitude" size="30"></p>
+
+<script src="location.js"></script>
+</body>
+</html>
